@@ -1,0 +1,35 @@
+.recipe{
+    font-size: 1.5rem;
+    margin: 3rem;
+    color:#171D1C;
+}
+
+.recipe img{
+    width: 40rem;
+    height: 40rem;
+    object-fit: cover;
+    display: flex;
+    margin: 2rem auto;
+    border-radius: 1rem;
+}
+
+ul, ol{
+    padding: 0.5rem 1rem;
+    list-style-position: inside;
+}
+
+.ingredients p{
+    padding: 0.25rem 0;
+    padding-bottom: 1rem;
+    
+}
+
+ul li, ol li{
+    padding: 0.25rem;
+}
+
+footer{
+    background-color: #E7E5DF;
+    font-weight: bold;
+    padding-top: 3rem;
+}

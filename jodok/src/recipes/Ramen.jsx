@@ -1,10 +1,9 @@
 
 
 export default function Ramen() {
-    return(
+    return (
         <div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi illum facilis totam amet nulla error dolorum architecto, exercitationem nobis quo iure nisi tenetur excepturi et molestias modi nostrum placeat quod?</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam provident, fugiat illo quis aut adipisci saepe dolorem architecto, libero ab, maiores dicta delectus deleniti voluptatum deserunt non cum aspernatur tenetur.</p>
         </div>
     )
-
 }
