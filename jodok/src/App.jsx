@@ -8,7 +8,7 @@ export default function App() {
   return (
     <>
       <header>
-        <a href="/"><img src="./src/assets/logo.jpg" alt="" /></a>
+        <a href="/"><img src="https://i.ibb.co/JtWvhkN/logo.jpg" alt="" /></a>
         <a id="menu" href="/">
           <img src={Bars} alt="Menu" />
         </a>
@@ -31,8 +31,9 @@ export default function App() {
         </a>
         
       </div>
-
-      <BeefAndBroccoli />
+      <div className="recipe-card">
+        <BeefAndBroccoli />
+      </div>
       
     </>
   )
