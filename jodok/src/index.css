@@ -10,51 +10,83 @@
 }
 
 header{
-    height: 20%vh;
-    padding: 0.5rem;
+    height: 15%;
     font-size: 1.6rem;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
 }
 
-h1{
-    color: #0353A4;
+#menu img{
+    height: 2.5rem;
+    width: 2.5rem;
+    margin: 2rem; 
 }
 
-a{
-    text-decoration: none;
+header img{
+    height: 6rem;
+    width: 14rem;
+    margin-top: 0.5rem;
+    object-fit: cover;
+    margin-right: 2rem;
 }
 
 #love-message{
     color: #171D1C;
-    font-size: 1.5rem;
-    padding: 2rem;
+    background-color: #EFE9F4;
+    font-size: 1.3rem;
+    padding: 1.3rem;
+    margin: 0.5rem 1rem 2rem 1rem;
+    display: flex;
     text-align: center;
+    justify-content: center;
 }
 
 #search-recipe{
     display: flex;
     justify-content: center;
 }
-#search{
-    width: 75%;
+
+#search-recipe a{
+    width: 4rem;
     height: 4rem;
+    background-color: #045CB4;
+    border-radius: 0.3rem;
+    border: none;
     padding: 1rem;
+    cursor: pointer;
+}
+#search-recipe a img{
+    width: 2rem;
+    padding: 1rem auto;
+}
+#search{
+    width: 70%;
+    height: 4rem;
+    padding: 2rem;
     border-color: #E7E5DF;
     border-style: solid;
     border-width: 0.1rem;
     border-radius: 0.3rem;
 }
 
-.button{
-    width: 10%;
-    height: 4rem;
-    text-decoration: none;
-    color:#171D1C;
-    font-weight: bolder;
-    background-color: #44BBA4;
-    border-radius: 0.3rem;
-    border: none;
-    padding: 1rem;
-    cursor: pointer;
+
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #love-message{
+        width: 50%;
+        font-size: 1.4rem;
+        display: block;
+        margin: 1rem auto;
+    }
+    #search{
+        width: 55%;
+        margin: 0 0.3rem;
+    }
+    #search-recipe a{
+        width: 8rem;
+    }
+    #search-recipe a img{
+        display: block;
+        margin: 0 auto;
+    }
 }

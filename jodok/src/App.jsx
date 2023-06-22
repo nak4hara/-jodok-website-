@@ -1,27 +1,35 @@
 import Ramen from "./recipes/Ramen"
 import BeefAndBroccoli from "./recipes/Beef-and-broccoli"
+import Lens from './assets/magnifying-glass-solid.svg';
+import Bars from './assets/bars-solid.svg'
 
 export default function App() {
 
   return (
     <>
       <header>
-        <a href="/"><h1>Jodok's recipe v1.0</h1></a>
-
+        <a href="/"><img src="./src/assets/logo.jpg" alt="" /></a>
+        <a id="menu" href="/">
+          <img src={Bars} alt="Menu" />
+        </a>
       </header>
       <div id="love-message">
-        Hi, my love!<br />
-        I am happy to make this project aaaaall for you :)<br />
-        I hope you like this online recipe book, <br />
-        it might reminds you of one of the things<br />
-        we appreciate the most in our lives,<br />
+        Hi, my lovely Jodoko,<br />
+        I am proud to show you this project.
+        It is aaaaall for you :)<br />
+        I hope you like this online recipe book, 
+        it might reminds you of one of the things
+        we appreciate the most in our lives,
         cooking together!<br />
-        I love you more than anything
+        I love you more than anything!!
       </div>
       <div id="search-recipe">
         <input type="text" name="search" id="search" 
         placeholder="Search here..."/>
-        <input type="button" className="button" value="Search" />
+        <a href="/">
+          <img src={Lens} alt="Search button" />
+        </a>
+        
       </div>
 
       <BeefAndBroccoli />
