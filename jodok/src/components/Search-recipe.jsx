@@ -1,4 +1,5 @@
 import Lens from '../assets/magnifying-glass-solid.svg';
+import '../index.css'
 
 export default function SearchRecipe() {
     <div id="search-recipe">
