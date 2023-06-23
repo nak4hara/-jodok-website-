@@ -2,17 +2,13 @@ import {Routes, Route} from "react-router-dom"
 import Navbar from './components/Navbar.jsx';
 import LoveMessage from "./components/Love-message.jsx";
 import Card from './components/Card.jsx'
-import SearchRecipe from "./components/Search.jsx";
 
 export default function App() {
   return (
     <>
-      <Routes>
-      </Routes>
       <div>
         <Navbar />
         <LoveMessage />
-        <SearchRecipe />
       </div>
       <div className="wrapper">
         <Card img="https://i.ibb.co/PTsH2HL/broccoli-and-beef.jpg"
