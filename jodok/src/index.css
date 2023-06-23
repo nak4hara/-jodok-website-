@@ -7,38 +7,44 @@
 :root{
     font-size: 62.5%;
     font-family: 'Work Sans', sans-serif;
+    --clr-denim: #045CB4;
+    --clr-chestnut: #A33B29;
+    --clr-magnolia: #EFE9F4;
+    --clr-eerie-black: #171D1C;
+    --clr-process-cyan: #08B2E3;
 }
 
-header{
+.nav{
     height: 15%;
     font-size: 1.6rem;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
+    align-items: 2rem;
+    padding: 0 1rem;
 }
 
 #menu img{
-    height: 2.5rem;
-    width: 2.5rem;
-    margin: 2rem; 
+    height: 2.3rem;
+    width: 2.3rem;
+    margin: 1.5rem 1rem; 
 }
 
-header img{
-    height: 6rem;
-    width: 14rem;
-    margin-top: 0.5rem;
+.nav img{
+    height: 5.6rem;
+    width: 13.5rem;
     object-fit: cover;
-    margin-right: 2rem;
 }
 
 #love-message{
-    color: #171D1C;
-    background-color: #EFE9F4;
+    color: var(--clr-eerie-black);
+    background-color: var(--clr-magnolia);
     font-size: 1.3rem;
     padding: 1.3rem;
     margin: 0.5rem 1rem 2rem 1rem;
     display: flex;
     text-align: center;
     justify-content: center;
+    font-weight: 300;
 }
 
 #search-recipe{
@@ -49,7 +55,7 @@ header img{
 #search-recipe a{
     width: 4rem;
     height: 4rem;
-    background-color: #045CB4;
+    background-color: var(--clr-denim);
     border-radius: 0.3rem;
     border: none;
     padding: 1rem;
@@ -68,7 +74,6 @@ header img{
     border-width: 0.1rem;
     border-radius: 0.3rem;
 }
-
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */

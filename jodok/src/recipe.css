@@ -1,12 +1,28 @@
-.recipe{
-    font-size: 1.5rem;
-    margin: 3rem;
-    color:#171D1C;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-h2{
+:root{
+    font-family: 'Work Sans', sans-serif;
+    --clr-denim: #045CB4;
+    --clr-chestnut: #A33B29;
+    --clr-magnolia: #EFE9F4;
+    --clr-eerie-black: #171D1C;
+    --clr-process-cyan: #08B2E3;
+}
+
+.recipe{
+    font-size: 1.7rem;
+    margin: 3rem;
+    color:var(--clr-eerie-black);
+    font-weight: 300;
+}
+
+.recipe h2{
     text-align: center;
-    color: #A33B29;
+    color: var(--clr-chestnut);
 }
 
 .recipe img{
@@ -20,8 +36,8 @@ h2{
     border-radius: 1rem;
 }
 
-h3{
-    color: #A33B29;
+.recipe h3{
+    color: var(--clr-chestnut);
 }
 
 ul, ol{
@@ -32,7 +48,6 @@ ul, ol{
 .ingredients p{
     padding: 0.25rem 0;
     padding-bottom: 1rem;
-    
 }
 
 ul li, ol li{
@@ -41,7 +56,7 @@ ul li, ol li{
 }
 
 footer{
-    font-weight: bold;
+    font-weight: 500;
     padding-top: 3rem;
     display: flex;
     justify-content: center;
@@ -49,10 +64,10 @@ footer{
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */
-    h2{
+    .recipe h2{
         font-size: 4rem;
     }
-    h3{
+    .recipe h3{
         font-size: 2rem;
     }
     .recipe img{
