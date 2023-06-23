@@ -1,5 +1,4 @@
 import "../recipe.css"
-import CookingInfo from '../components/Cooking-info'
 
 export default function BeefAndBroccoli() {
     return (

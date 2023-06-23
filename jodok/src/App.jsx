@@ -1,43 +1,40 @@
-import Navbar from './components/Navbar';
-import Lens from './assets/magnifying-glass-solid.svg';
-import Card from './components/Card'
-import BeefAndBroccoli from "./recipes/Beef-and-broccoli"
+import {Routes, Route} from "react-router-dom"
+import Navbar from './components/Navbar.jsx';
+import LoveMessage from "./components/Love-message.jsx";
+import Card from './components/Card.jsx'
+import SearchRecipe from "./components/Search.jsx";
 
 export default function App() {
-
   return (
     <>
-      <Navbar />
-      <div id="love-message">
-        Hi, my lovely Jodoko,<br />
-        I am proud to show you this project.
-        It is aaaaall for you :)<br />
-        I hope you like this online recipe book,
-        it might reminds you of one of the things
-        we appreciate the most in our lives,
-        cooking together!<br />
-        I love you more than anything!!
-      </div>
-      <div id="search-recipe">
-        <input type="text" name="search" id="search"
-          placeholder="Search here..." />
-        <a href="/">
-          <img src={Lens} alt="Search button" />
-        </a>
-
+      <Routes>
+      </Routes>
+      <div>
+        <Navbar />
+        <LoveMessage />
+        <SearchRecipe />
       </div>
       <div className="wrapper">
         <Card img="https://i.ibb.co/PTsH2HL/broccoli-and-beef.jpg"
-        title="Beef and Broccoli"
-        description="One of the best recipes we found out and probably top 5 of Jodok's favourite dishes"/>
-        <Card img="https://i.ibb.co/PTsH2HL/broccoli-and-beef.jpg"
-        title="Beef and Broccoli"
-        description="One of the best recipes we found out and probably top 5 of Jodok's favourite dishes"/>
-        <Card img="https://i.ibb.co/PTsH2HL/broccoli-and-beef.jpg"
-        title="Beef and Broccoli"
-        description="One of the best recipes we found out and probably top 5 of Jodok's favourite dishes"/>
-      </div>
+          title="Beef and Broccoli"
+          description="One of the best recipes we found out and probably top 5 of Jodok's favourite dishes" />
 
+        <Card img="https://www.sweetashoney.co/wp-content/uploads/French-Crepes-6-768x432.jpg"
+          title="French crêpe"
+          description="Easy recipe, it fits perfectly with salted caramel sauce or doce de leite." />
+
+        <Card img="https://img.buzzfeed.com/video-api-prod/assets/fafe8090b4f3434f80c33b6e4ce40e24/BFV21539_BestFudgyBrownies-ThumbB1080.jpg?resize=1200:*"
+          title="Fudgy Brownie"
+          description="Irresistible dessert full of cacao flavor, perfect for a picnic." />
+
+        <Card img="https://www.justonecookbook.com/wp-content/uploads/2020/04/Gyoza-3096-II-768x1152.jpg"
+          title="Gyoza"
+          description="A classic japanese recipe, perfect to make with friends and family" />
+
+        <Card img="https://static01.nyt.com/images/2019/01/19/dining/12CHOCPANCAKES3/12CHOCPANCAKES3-articleLarge.jpg"
+          title="Salted caramel sauce"
+          description="Jeeesus, you should try this one. Jodok is crazy about this sauce." />
+      </div>
     </>
   )
 }
