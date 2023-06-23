@@ -1,4 +1,3 @@
-import {Routes, Route} from "react-router-dom"
 import Navbar from './components/Navbar.jsx';
 import LoveMessage from "./components/Love-message.jsx";
 import Card from './components/Card.jsx'
