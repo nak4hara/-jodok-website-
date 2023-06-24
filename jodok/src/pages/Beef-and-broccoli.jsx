@@ -38,7 +38,7 @@ export default function BeefAndBroccoli() {
                 </ol>
             </section>
             <footer>
-                <p>Original recipe: <a href="https://natashaskitchen.com/beef-and-broccoli/">Natasha's kitchen</a></p>
+                <p>Original recipe: <a target="_blank" href="https://natashaskitchen.com/beef-and-broccoli/">Natasha's kitchen</a></p>
             </footer>
         </div>
     )

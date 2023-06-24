@@ -29,7 +29,7 @@ export default function FrenchCrepe() {
                 </ol>
             </section>
             <footer>
-                <p>Original recipe: <a href="https://www.sweetashoney.co/french-crepes-recipe-easy/#recipe-card">Sweet as Honey</a></p>
+                <p>Original recipe: <a target="_blank" href="https://www.sweetashoney.co/french-crepes-recipe-easy/#recipe-card">Sweet as Honey</a></p>
             </footer>
         </div>
     )
