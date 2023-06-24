@@ -9,10 +9,10 @@
 
 .wrapper{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(15rem, 26rem));
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 32rem));
     gap: 2rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .card{
@@ -50,9 +50,11 @@
     font-weight: 500;
     font-size: 1.3rem;
     margin: 1rem;
+    text-decoration: none;
+    text-align: center;
     border: 2px solid var(--clr-chestnut);
     background-color: var(--clr-chestnut);
-    color: var(--clr-magnolia);
+    color: white;
     border-radius: 0.3rem;
     transition:background-color 200ms ease-in, color 200ms ease-in;   
 }

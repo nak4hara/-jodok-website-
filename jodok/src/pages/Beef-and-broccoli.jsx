@@ -5,9 +5,7 @@ export default function BeefAndBroccoli() {
         <div className="recipe">
             <h2>Beef and Broccoli</h2>
             <img src="https://i.ibb.co/PTsH2HL/broccoli-and-beef.jpg" alt="Broccoli and Beef" />
-            <section className="recipe-category">
 
-            </section>
             <section className="ingredients">
                 <h3>Ingredients:</h3>
                 <ul>

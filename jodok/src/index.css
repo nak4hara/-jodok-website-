@@ -12,6 +12,7 @@
     --clr-magnolia: #EFE9F4;
     --clr-eerie-black: #171D1C;
     --clr-process-cyan: #08B2E3;
+    --speed: 500ms;
 }
 
 .nav{
@@ -35,15 +36,61 @@
     object-fit: cover;
 }
 
+.dropdown-menu{
+    background-color: var(--clr-denim);
+    width: 100%;
+    position: absolute;
+}
+
+.dropdown-menu ul li{
+    border-top: solid 0.1rem rgba(255, 255, 255, .5);
+}
+
+.dropdown-menu::before{
+    content: '';
+    height: 0;
+    width: 0;
+    background-color: transparent;
+}
+
+.dropdown-menu.active{
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    transition: var(--speed) ease;
+}
+.dropdown-menu.inactive{
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-2rem);
+    transition: var(--speed) ease;
+}
+
+.dropdown__item{
+    display: flex;
+    padding: 1.2rem;
+    margin: 0 auto;
+    font-size: 1.3rem;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+}
+.dropdown__btn{
+    text-decoration: none;
+    color: white;
+    transition: var(--speed)
+}
+
 #love-message{
     color: var(--clr-eerie-black);
-    background-color: var(--clr-magnolia);
-    font-size: 1.3rem;
-    padding: 1.3rem;
-    margin: 0.5rem 1rem 2rem 1rem;
-    display: flex;
-    text-align: center;
+    font-size: 2rem;
+    padding: 3rem;
+    margin: 1rem;
+    display:inline-flex;
+    flex-direction: column;
+    text-align: left;
     justify-content: center;
+    text-align: justify;
     font-weight: 300;
 }
 
@@ -75,6 +122,16 @@
     border-radius: 0.3rem;
 }
 
+.under-construction{
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 3rem;
+}
+
 @media only screen and (min-width: 768px) {
     /* For desktop: */
     #love-message{
@@ -82,6 +139,11 @@
         font-size: 1.4rem;
         display: block;
         margin: 1rem auto;
+    }
+    .dropdown-menu{
+        width: 30rem;
+        position: absolute;
+        right: 2rem;
     }
     #search{
         width: 55%;

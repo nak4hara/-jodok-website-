@@ -1,4 +1,5 @@
 import './Card.css'
+import {Link} from 'react-router-dom'
 
 export default function Card(props){
     return (
@@ -8,7 +9,7 @@ export default function Card(props){
                 <h2 className="card__title">{props.title}</h2>
                 <p className="card__description">{props.description}</p>
             </div>
-            <a href="" className='card__btn'>View Recipe</a>
+            <Link to={props.link} className='card__btn'>View Recipe</Link>
         </div>
     )
 }
