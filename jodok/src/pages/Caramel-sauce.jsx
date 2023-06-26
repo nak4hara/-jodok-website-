@@ -4,7 +4,7 @@ export default function CaramelSauce() {
     return (
         <div className="recipe">
             <h2>Salted caramel sauce</h2>
-            <img src="https://www.justonecookbook.com/wp-content/uploads/2019/05/Miso-Ramen-I-768x512.jpg" alt="Salted Caramel Sauce from NY Times" />
+            <img src="https://static01.nyt.com/images/2019/01/19/dining/12CHOCPANCAKES3/12CHOCPANCAKES3-articleLarge.jpg" alt="Salted Caramel Sauce from NY Times" />
 
             <section className="ingredients">
                 <h3>Ingredients:</h3>
