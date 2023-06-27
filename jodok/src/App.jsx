@@ -2,7 +2,7 @@ import Navbar from './components/Navbar.jsx';
 import SearchRecipe from './components/Search-recipe.jsx';
 import { Routes, Route } from 'react-router-dom'
 
-import Home from './pages/Home.jsx'
+import Home from './components/pages/Home.jsx'
 import LoveMessage from './pages/Love-message.jsx';
 import Top5 from './pages/Top5.jsx';
 import AboutMe from './pages/About-me.jsx';

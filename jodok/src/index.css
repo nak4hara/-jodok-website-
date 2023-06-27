@@ -30,12 +30,6 @@
     margin: 1.5rem 1rem; 
 }
 
-.nav img{
-    height: 5.6rem;
-    width: 13.5rem;
-    object-fit: cover;
-}
-
 .dropdown-menu{
     background-color: var(--clr-denim);
     width: 100%;
