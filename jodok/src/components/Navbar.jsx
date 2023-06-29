@@ -18,11 +18,11 @@ export default function Navbar() {
                 </div>
             </nav>
             <div className={`dropdown-menu ${open ? 'active' : 'inactive'} `}>
-                <p className='dropdown__item'>Olá, amor da minha vida</p>
+                <p className='dropdown__item'>Jodok's Favourite recipes</p>
                 <ul>
                     <DropDownItem page="love-message" text="See my message" />
                     <DropDownItem page="top-5-recipes" text="Top 5 recipes" />
-                    <DropDownItem text="About Karina" />
+                    <DropDownItem page="about-me" text="About Karina" />
                 </ul>
             </div>
         </>
@@ -32,8 +32,9 @@ export default function Navbar() {
 function DropDownItem(props) {
     return (
         <li className='dropdown__item'>
-            <Link className="dropdown__btn" to={props.page}
-                onClick={() => setOpen(!open)}>{props.text}</Link>
+            <Link to={props.page} onClick={() => setOpen(!open)}>
+                {props.text}
+            </Link>
         </li>
     )
 }

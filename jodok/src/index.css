@@ -69,10 +69,11 @@
     text-align: center;
     color: white;
 }
-.dropdown__btn{
+
+.dropdown__item a{
+    list-style-type: none;
     text-decoration: none;
     color: white;
-    transition: var(--speed)
 }
 
 #love-message{

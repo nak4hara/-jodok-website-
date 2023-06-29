@@ -35,6 +35,9 @@
     width: 100%;
     object-fit: cover;
 }
+.card__image:hover{
+    transform: scale(1.03);
+}
 
 .card__title{
     padding: 1rem;
@@ -61,7 +64,4 @@
     color: white;
     border-radius: 0.3rem;
     transition:background-color 200ms ease-in, color 200ms ease-in;   
-}
-.card__btn:hover{
-    transform: scale(1.03);
 }

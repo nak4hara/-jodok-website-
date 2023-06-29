@@ -67,7 +67,7 @@ footer{
     display: flex;
     justify-content: center;
 }
-footer a, a:visited{
+footer a, footer a:visited{
     text-decoration: none;
     color: var(--clr-chestnut);
 }
