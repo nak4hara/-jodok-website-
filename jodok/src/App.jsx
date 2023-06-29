@@ -12,6 +12,10 @@ import FudgyBrownie from './pages/Brownie.jsx';
 import Ramen from './pages/Ramen.jsx';
 import CaramelSauce from './pages/Caramel-sauce.jsx';
 import Gyoza from './pages/Gyoza.jsx';
+import CaramelPopcorn from './pages/Caramel-popcorn.jsx';
+import ChocolateCake from './pages/Chocolate-cake.jsx';
+import Lasagna from './pages/Lasagna.jsx';
+import Zwiebelkuchen from './pages/Zwiebelkuchen.jsx';
 
 export default function App() {
   return (
@@ -30,6 +34,10 @@ export default function App() {
           <Route path="miso-ramen" element={<Ramen />}/>
           <Route path="salted-caramel-sauce" element={<CaramelSauce />}/>
           <Route path="gyoza" element={<Gyoza />}/>
+          <Route path="caramel-popcorn" element={<CaramelPopcorn />}/>
+          <Route path="chocolate-cake" element={<ChocolateCake />}/>
+          <Route path="lasagna" element={<Lasagna />}/>
+          <Route path="zwiebelkuchen" element={<Zwiebelkuchen />}/>
         </Routes>
       </div>
 
