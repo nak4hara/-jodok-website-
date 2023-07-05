@@ -6,8 +6,13 @@ import Logo from './atoms/Logo';
 
 
 export default function Navbar() {
+    const pages = [
+        { id: '1', page: 'love-message', text: 'See my message' },
+        { id: '2', page: 'top-5-recipes', text: 'Top 5 recipes' },
+        { id: '3', page: 'about-me', text: 'About Karina' },
+    ]
 
-    const [open, setOpen] = useState(false);
+    const [open, setOpen] = useState(false)
 
     return (
         <>
@@ -20,21 +25,19 @@ export default function Navbar() {
             <div className={`dropdown-menu ${open ? 'active' : 'inactive'} `}>
                 <p className='dropdown__item'>Jodok's Favourite recipes</p>
                 <ul>
-                    <DropDownItem page="love-message" text="See my message" />
-                    <DropDownItem page="top-5-recipes" text="Top 5 recipes" />
-                    <DropDownItem page="about-me" text="About Karina" />
+                    {pages.map((page) => {
+                        return (
+                            <div>
+                                <li className='dropdown__item' key={page.id}>
+                                    <Link to={page.page} onClick={() => setOpen(!open)}>
+                                        {page.text}
+                                    </Link>
+                                </li>
+                            </div>
+                        )
+                    })}
                 </ul>
             </div>
         </>
-    )
-}
-
-function DropDownItem(props) {
-    return (
-        <li className='dropdown__item'>
-            <Link to={props.page} onClick={() => setOpen(!open)}>
-                {props.text}
-            </Link>
-        </li>
     )
 }

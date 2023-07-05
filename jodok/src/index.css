@@ -62,16 +62,15 @@
 
 .dropdown__item{
     display: flex;
-    padding: 1.2rem;
-    margin: 0 auto;
+    padding: 1.2rem ;
     font-size: 1.3rem;
     flex-direction: column;
     text-align: center;
     color: white;
+    list-style-type: none;
 }
 
 .dropdown__item a{
-    list-style-type: none;
     text-decoration: none;
     color: white;
 }
