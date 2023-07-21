@@ -7,10 +7,6 @@
     --clr-gray: #dddddd;
 }
 
-.wrapper{
-    margin-top: 1rem;
-}
-
 .card li{
     overflow: hidden;
     box-shadow: 0 2px 15px var(--clr-gray);

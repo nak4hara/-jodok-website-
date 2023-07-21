@@ -45,15 +45,7 @@ ul, ol{
     list-style-position: inside;
 }
 
-.ingredients p{
-    padding: 0.25rem 0;
-    padding-bottom: 1rem;
-}
 
-ul li, ol li{
-    padding: 0.25rem;
-    text-align: justify;
-}
 
 .instructions{
     padding-bottom: 1rem;
