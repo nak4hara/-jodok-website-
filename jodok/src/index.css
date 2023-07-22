@@ -24,55 +24,11 @@
     padding: 0 1rem;
 }
 
-#menu img{
+.menu img{
     height: 2.3rem;
     width: 2.3rem;
-    margin: 1.5rem 1rem; 
-}
-
-.dropdown-menu{
-    background-color: var(--clr-denim);
-    width: 100%;
-    position: absolute;
-}
-
-.dropdown-menu ul li{
-    border-top: solid 0.1rem rgba(255, 255, 255, .5);
-}
-
-.dropdown-menu::before{
-    content: '';
-    height: 0;
-    width: 0;
-    background-color: transparent;
-}
-
-.dropdown-menu.active{
-    opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
-    transition: var(--speed) ease;
-}
-.dropdown-menu.inactive{
-    opacity: 0;
-    visibility: hidden;
-    transform: translateY(-2rem);
-    transition: var(--speed) ease;
-}
-
-.dropdown__item{
-    display: flex;
-    padding: 1.2rem ;
-    font-size: 1.3rem;
-    flex-direction: column;
-    text-align: center;
-    color: white;
-    list-style-type: none;
-}
-
-.dropdown__item a{
-    text-decoration: none;
-    color: white;
+    margin: 1.5rem 1rem;
+    position: relative;
 }
 
 #love-message{
