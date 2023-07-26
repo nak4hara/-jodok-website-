@@ -1,6 +1,5 @@
-import Card from '../molecules/Card'
-import Recipes from '../../json/recipes.json'
-import {Link} from 'react-router-dom'
+import Card from '../../molecules/Card'
+import Recipes from '../../../json/recipes.json'
 
 export default function Home() {
 
@@ -11,12 +10,7 @@ export default function Home() {
         {Recipes.map((recipe) => {
           return (
             <li key={recipe.id}>
-              <Link
-                to={recipe.link}
-                style={{ color: 'inherit', textDecoration: 'none' }}
-              >
                 <Card recipe={recipe} />
-              </Link>
             </li >
           )
         })

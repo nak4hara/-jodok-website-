@@ -12,6 +12,7 @@
     --clr-magnolia: #EFE9F4;
     --clr-eerie-black: #171D1C;
     --clr-process-cyan: #08B2E3;
+    --clr-white: #fff;
     --speed: 500ms;
 }
 
@@ -72,15 +73,6 @@
     border-radius: 0.3rem;
 }
 
-.under-construction{
-    font-size: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    text-align: center;
-    margin: 3rem;
-}
 
 @media only screen and (min-width: 768px) {
     /* For desktop: */

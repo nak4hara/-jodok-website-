@@ -1,10 +1,9 @@
+import NotFound from "../components/pages/NotFound";
 
 export default function Top5() {
     return (
         <div className="under-construction">
-            <p>Eita, ainda tô construindo! Clica no logo pra voltar.</p>
-            <br/>
-            <p>Under construction, please clink on logo to return.</p>
+            <NotFound />
         </div>
     )
 }
