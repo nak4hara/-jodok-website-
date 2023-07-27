@@ -9,7 +9,7 @@
             {
                 "quantity": "230g",
                 "name": " flank steak",
-                "type": "Meat"
+                "type": "Proteins"
             },
             {
                 "quantity": "1 Tbsp",
@@ -81,62 +81,417 @@
         "img": "https://www.sweetashoney.co/wp-content/uploads/French-Crepes-6-768x432.jpg",
         "description": "Easy recipe, it fits perfectly with salted caramel sauce or doce de leite.",
         "link": "french-crepe",
-        "id": 2
+        "id": 2,
+        "ingredients": [
+            {
+                "quantity": "150g",
+                "name": "wheat flour",
+                "type": "Cereals"
+            },
+            {
+                "quantity": "2",
+                "name": "eggs",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "18g",
+                "name": "unsalted melted butter",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "2/3 Tbsp",
+                "name": "vanilla extract",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/8 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "3/4 tsp",
+                "name": "sugar",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "In a large bowl, add the flour, eggs, salt, vanilla extract, melted butter, and sugar if used. ",
+            "Using a whisk, beat in the milk gradually until a smooth batter forms with no lumps.",
+            "Heat a lightly buttered crepe pan over medium/high heat.",
+            "Pour or scoop the batter onto the pan, then tip and rotate the pan to spread the batter as thinly as possible.",
+            "Cook until lightly brown on both sides – about 1-2 minutes on each side and serve hot with your favorite fillings."
+        ],
+        "originalURL": "https://www.sweetashoney.co/french-crepes-recipe-easy/#recipe-card"
     },
     {
         "title": "Fudgy Brownie",
         "img": "https://img.buzzfeed.com/video-api-prod/assets/fafe8090b4f3434f80c33b6e4ce40e24/BFV21539_BestFudgyBrownies-ThumbB1080.jpg",
         "description": "Irresistible dessert full of cacao flavor, perfect for a picnic.",
         "link": "fudgy-brownie",
-        "id": 3
+        "id": 3,
+        "ingredients": [
+            {
+                "quantity": "225g",
+                "name": "good-quality chocolate, semi sweet",
+                "type": "Chocolate"
+            },
+            {
+                "quantity": "168g",
+                "name": "melted butter",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "200g",
+                "name": "sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "2",
+                "name": "eggs",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "2 tbsp",
+                "name": "vanilla extract",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "95g",
+                "name": "all-purpose flour",
+                "type": "Cereals"
+            },
+            {
+                "quantity": "18g",
+                "name": "cocoa powder",
+                "type": "Chocolate"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Preheat the oven to 180°C. Line an 20 cm square baking dish with parchment paper.",
+            "Chop the chocolate into chunks. Melt half of the chocolate in the microwave in 20-second intervals, saving the other half for later.",
+            "In a large bowl, mix the butter and sugar, then beat in the eggs and vanilla for 1-2 minutes, until the mixture becomes fluffy and light in color.",
+            "Whisk in the melted chocolate (make sure it's not too hot or else the eggs will cook), then sift in the flour, cocoa powder, and salt. Fold to incorporate the dry ingredients, being careful not to overmix as this will cause the brownies to be more cake-like in texture.",
+            "Fold in the chocolate chunks, then transfer the batter to the prepared baking dish.",
+            "Bake for 25-30 minutes, depending on how fudgy you like your brownies, then cool completely."
+        ],
+        "originalURL": "https://tasty.co/recipe/the-best-fudgy-brownies"
     },
     {
         "title": "Gyoza",
         "img": "https://www.justonecookbook.com/wp-content/uploads/2020/04/Gyoza-3096-II-768x1152.jpg",
         "description": "A classic japanese recipe, perfect to make with friends and family",
         "link": "gyoza",
-        "id": 4
+        "id": 4,
+        "ingredients": [
+            {
+                "quantity": "1 package",
+                "name": "gyoza wrappers",
+                "type": "Dough"
+            },
+            {
+                "quantity": "140g",
+                "name": "green cabbage",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "2",
+                "name": "scallions",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "2",
+                "name": "shiitake mushrooms",
+                "type": "Mushrooms"
+            },
+            {
+                "quantity": "340g",
+                "name": "ground pork or beef",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "2 cloves",
+                "name": "garlic",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "ginger, grated",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 tbsp",
+                "name": "roasted sesame oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tbsp",
+                "name": "soy sauce",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/8 tsp",
+                "name": "black pepper",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/4 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Mince the cabbage into very small pieces, sprinkle salt to dehydrate. After 20 minutes rinse quickly and squeeze the water out.",
+            "Mince the mushroom and scallions and combine with cabbage and the ground meat. Mince the garlic and ginger and add to the bowl.",
+            "Add seasoning ingredients, mix well and knead the mixture with your hands until it becomes sticky and pale in color.",
+            "To fold the gyoza, prepare a small bowl of water, open the gyoza wrapper package.  Add the filling in the center of the wrapper, dip one finger in the water and draw a circle around the outer 6mm of the wrapper.",
+            "Fold the wrappers according to original recipe link.",
+            "Heat the pan and add 1 Tbsp neutral-flavored oil. Then, place the gyoza in a single layer, in a circular pattern. Do it in batches.",
+            "Cook until the bottom turns golden brown, about 3 minutes. Then, add 1/4 cup of water to the pan. Immediately cover with a lid and steam the gyoza for about 5 minutes of until most of water evaporates.",
+            "Remove the lid to evaporate any remaing water. Serve with a combination of 1 Tbsp soy sauce, 1 Tbsp water and 1 Tbsp rice vinegar."
+        ],
+        "originalURL": "https://www.justonecookbook.com/gyoza/"
     },
     {
         "title": "Salted caramel sauce",
         "img": "https://static01.nyt.com/images/2019/01/19/dining/12CHOCPANCAKES3/12CHOCPANCAKES3-articleLarge.jpg",
         "description": "Jeeesus, you should try this one. Jodok is crazy about this sauce.",
         "link": "salted-caramel-sauce",
-        "id": 5
+        "id": 5,
+        "ingredients": [
+            {
+                "quantity": "200g",
+                "name": "brown sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "90g",
+                "name": "salted butter, room temperature cut up into 6 pieces",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "120ml",
+                "name": "heavy cream, at room temperature",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Heat granulated sugar in a medium heavy-duty saucepan (avoid using non-stick) over medium heat, stirring constantly with a high heat resistant rubber spatula or wooden spoon. Sugar will form clumps and eventually melt into a thick brown, amber-colored liquid as you continue to stir. Be careful not to burn it.",
+            "Once sugar is completely melted, immediately stir in the butter until melted and combined. Be careful in this step because the caramel will bubble rapidly when the butter is added. If you notice the butter separating or if the sugar clumps up, remove from heat and vigorously whisk to combine it again. (If you’re nervous for splatter, wear kitchen gloves. Keep whisking until it comes back together, even if it takes 3-4 minutes. It will eventually– just keep whisking. Return to heat when it’s combined again.)",
+            "After the butter has melted and combined with the caramelized sugar, stir constantly as you very slowly pour in the heavy cream. Since the heavy cream is colder than the hot caramel, the mixture will rapidly bubble when added. After all the heavy cream has been added, stop stirring and allow to boil for 1 minute. It will rise in the pan as it boils.",
+            "Remove from heat and stir in the salt. Allow to slightly cool down before using. Caramel thickens as it cools."
+        ],
+        "originalURL": "https://sallysbakingaddiction.com/homemade-salted-caramel-recipe/"
     },
     {
         "title": "Miso Ramen",
         "img": "https://www.justonecookbook.com/wp-content/uploads/2019/05/Miso-Ramen-I-768x512.jpg",
         "description": "I don't even know how many times we did this ramen, really tasty.",
         "link": "miso-ramen",
-        "id": 6
+        "id": 6,
+        "ingredients": [],
+        "steps": [
+            "Prepare the toppings before you start to cook. If you want to make chashu, prepare it one day before.",
+            "Grate the garlic and ginger, dice the onion and mix them in a bowl.",
+            "In a medium pan, heat the sesame oil in low/medium heat and stir-fry the ginger, garlic and onion until golden brown.",
+            "Add the minced beef and increase the heat to medium. Cook until meat is no longer pink.",
+            "Then, add miso paste and stir fastly before burned. Add sesame seeds and sugar and mix well.",
+            "For last, add the sake and chicken broth. Mix and let it boil.",
+            "Fix the sal and pepper quantities, put the lid and let it boil while cook the noodles.",
+            "Cook the noodles according to the package instructions and arrange the bowl with the noodles, broth and toppings. Serve right away."
+        ],
+        "originalURL": "https://www.justonecookbook.com/homemade-chashu-miso-ramen/"
     },
     {
         "title": "Caramel popcorn",
         "img": "https://i0.wp.com/thehobbywife.com/wp-content/uploads/2019/03/Easy-Caramel-Popcorn-so-easy-to-make-1-1.jpg?resize=735%2C466&ssl=1",
         "description": "Jodok said it is as awesome snacks to watch movies, I still have not tried hihi.",
         "link": "caramel-popcorn",
-        "id": 7
+        "id": 7,
+        "ingredients": [
+            {
+                "quantity": "8-10 cups",
+                "name": "popped popcorn",
+                "type": "Cereals"
+            },
+            {
+                "quantity": "226g",
+                "name": "butter",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "213g",
+                "name": "sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "2 tsp",
+                "name": "vanilla extract",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/2 tsp",
+                "name": "sodium bicarbonate",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Pop the popcorn as you normally would. Sprinkle some salt on the popcorn and then set aside.",
+            "In a medium pan, add the sugar at medium-heat. Once start to become caramel, stir sometimes until the caramel is homogeneous.",
+            "Once the color is light caramelised, add in the butter at room temperature and stir until it's mixed well",
+            "Keep stirring while bringing the butter and sugar mixture up to a boil.",
+            "Once butter and caramel are combined (it might take a while, do not give up!), add in the vanilla and stir to make sure it has mixed well.",
+            "Continue to boil for the last additional minute to reach the five total minutes previously mentioned, and then add the baking soda, and stir to combine.",
+            "Pour the mixture over the popped popcorn, trying to evenly distribute the caramel mixture on top.",
+            "Line a baking sheet with parchment paper. Then put the popcorn onto the baking sheet and allow it to cool completely."
+        ],
+        "originalURL": "https://thehobbywife.com/easy-caramel-popcorn-recipe/"
     },
     {
         "title": "Chocolate cake",
         "img": "https://i.pinimg.com/originals/20/fd/a6/20fda6aeaccc80caf68af1c1f15ea799.jpg",
         "description": "Chocolate cake made on a skillet, try it with brazilian chocolate sauce.",
         "link": "chocolate-cake",
-        "id": 8
+        "id": 8,
+        "ingredients": [],
+        "steps": [
+            "In a medium bowl, add the eggs, sugar, oil, and vanilla extract. Using a whisk, beat until have an homogeneous liquid.",
+            "Add the milk, flour, cacao, and salt and mix until a smooth batter forms.",
+            "Add the baking powder and stir softly.",
+            "Spread butter on the skillet, use a nonstick skillet. Pour the batter and cover with a lid.",
+            "The skillet should stay on low-heat for about 5-7min. Stick the cake with the fork, once is not sticky, it is ready.",
+            "Put all the ingredients of the sauce in a pan in medium-heat and stir  until thickened. Pour directly on top of the cake.",
+            "Wait for at least 15 min before serving."
+        ],
+        "originalURL": "https://www.youtube.com/watch?v=nktpjJCgXvw"
     },
     {
         "title": "Homemade Lasagna",
         "img": "https://www.spendwithpennies.com/wp-content/uploads/2020/05/Lasagna-SpendWithPennies-22-768x1152.jpeg",
         "description": "Easy recipe but the result it's amazing, I ate for the whole week.",
         "link": "lasagna",
-        "id": 9
+        "id": 9,
+        "ingredients": [],
+        "steps": [
+            "Preheat the oven to 180ºC. Prepare the lasagna noodles according to package instructions.",
+            "In a large pan, stir-fry beef, sausage, onion, and garlic over medium-high heat until no pink remains.",
+            "Add the pasta sauce, tomato paste, italian seasoning, salt, and pepper. Simmer uncovered over medium heat for 5 minutes or until thickened.",
+            "In a separate bowl, combine half of mozzarella, half of parmesan cheese, ricotta, parsley, egg, and a pinch of salt.",
+            "Spread the meat sauce in a 9×13 pan or casserole dish until cover the bottom. Top it with lasagna noodles. Layer with one layer of ricotta cheese mixture and layer of meat sauce. Repeat twice more. Finish with 3 noodles topped with remaining sauce.",
+            "Cover with foil and bake for 45 minutes. ",
+            "Remove the foil and sprinkle with the remaining mozzarella cheese and parmesan cheese. Bake for an additional 15 minutes or until browned and bubbly. Broil for 2-3 minutes if desired.",
+            "Rest for at least 15 minutes before cutting."
+        ],
+        "originalURL": "https://www.spendwithpennies.com/easy-homemade-lasagna/"
     },
     {
         "title": "Zwiebelkuchen",
         "img": "https://img.chefkoch-cdn.de/rezepte/1243811229272585/bilder/704511/crop-642x428/schwaebischer-zwiebelkuchen.jpg",
         "description": "An german savory cake, lots of caramelized onion.",
         "link": "zwiebelkuchen",
-        "id": 10
+        "id": 10,
+        "ingredients": [],
+        "steps": [
+            "Prepare a pre-dough. To do this, crumble the yeast in a small bowl and dissolve it in some of the warmed milk. Then add the sugar and some flour and stir until smooth. The pre-dough should have a viscous consistency. Sprinkle with a little flour and leave covered in a warm place to rise.",
+            "When the pre-dough has doubled in volume, it has risen sufficiently. Then add it to the flour. Add the salt and milk straight away. Knead the dough and then add the very soft butter. Leave the kneaded dough to rise.",
+            "When it has risen, cover the casserole with the dough. How high you make the edge depends on the diameter of the casserole.",
+            "Sauté the finely diced onions in the butter until translucent, stirring constantly. This can take a 10 minutes. However, the onions must not turn brown. Then stir in the flour immediately and leave the mixture to cool. Only when the dough has risen in the casserole, add the 2 beaten eggs and the cream and stir in well. Season with enough salt, because the onions need a lot of salt.",
+            "Then pour the topping into the casserole lined with the pastry and sprinkle with the bacon and caraway seeds. Finally, add a few flakes of butter.",
+            "Bake on the middle shelf in a preheated oven at 200 °C (top/bottom heat) for approx. 35 to 45 minutes.",
+            "Serve warm!"
+        ],
+        "originalURL": "https://www.chefkoch.de/rezepte/1243811229272585/Schwaebischer-Zwiebelkuchen.html"
+    },
+    {
+        "title": "Burrito",
+        "img": "https://github.com/nak4hara.png",
+        "description": "I know, it is a german recipe for a mexican dish. But we could find all the ingredients and make it easily.",
+        "link": "burrito",
+        "id": 11,
+        "ingredients": [
+            {
+                "quantity": "4",
+                "name": "tortillas",
+                "type": "Dough"
+            },
+            {
+                "quantity": "1",
+                "name": "red onion",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "neutral oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "400g",
+                "name": "minced beef",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "tomatenmark (tomato paste)",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 can",
+                "name": "black beans",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 can",
+                "name": "corn",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "2",
+                "name": "roman lettuce",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "3",
+                "name": "tomatoes",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "100g",
+                "name": "gouda",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "150g",
+                "name": "sour cream",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "To taste",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "To taste",
+                "name": "pepper",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Peel and finely chop the onion. Heat the oil in a pan and sauté the onion. Add the minced meat and fry. Stir in the tomato paste and season with salt and pepper. Drain the beans and maize, add to the minced meat and heat through.",
+            "Clean the lettuce, wash and cut into strips. Wash, core and finely dice the tomatoes.",
+            "Heat the tortillas one by one in a large frying pan on both sides. Spread some cheese on top, close the lid of the pan and let the cheese melt.",
+            "Spread the minced meat mixture as strips in the middle of the wraps. Top with some lettuce and tomatoes. Fold in the short sides of the wrap and fold one of the long sides over the filling. Roll up tightly to open side. ",
+            "Probably look on youtube how to fold and roll the tortillas.",
+            "Serve with sour cream."
+        ],
+        "originalURL": "https://www.rewe.de/rezepte/klassischer-burrito/"
     }
 ]

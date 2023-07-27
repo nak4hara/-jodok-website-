@@ -7,13 +7,10 @@ export default function Home() {
     <main className="card">
 
       <ul>
-        {Recipes.map((recipe) => {
-          return (
+        {Recipes.map((recipe) => { return (
             <li key={recipe.id}>
                 <Card recipe={recipe} />
-            </li >
-          )
-        })
+            </li >)})
         }
       </ul>
     </main>
