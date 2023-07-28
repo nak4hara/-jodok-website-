@@ -10,6 +10,7 @@ import PatternPage from './components/templates/PatternPage';
 import RecipePage from './components/pages/RecipePage'
 import NotFound from './components/pages/NotFound';
 import TestPage from './components/pages/TestPage';
+import Footer from './components/organisms/Footer';
 
 export default function AppRoutes() {
 
@@ -34,6 +35,8 @@ export default function AppRoutes() {
 
         <Route path='/recipe/:link' element={<RecipePage />} />
       </Routes>
+
+      <Footer />
     </>
   )
 }
