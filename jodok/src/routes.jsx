@@ -1,8 +1,7 @@
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react';
 
-import LoveMessage from './pages/Love-message.jsx';
-
+import Message from './components/pages/Message';
 import Navbar from './components/organisms/Navbar';
 import AboutMe from './components/pages/AboutMe';
 import Home from './components/pages/Home'
@@ -27,7 +26,7 @@ export default function AppRoutes() {
       <Routes>
         <Route path='/' element={<PatternPage />}>
           <Route index element={<Home />} />
-          <Route path="love-message" element={<LoveMessage />} />
+          <Route path="love-message" element={<Message />} />
           <Route path="about-me" element={<AboutMe />} />
           <Route path="*" element={<NotFound />} />
           <Route path='test' element={<TestPage />} />

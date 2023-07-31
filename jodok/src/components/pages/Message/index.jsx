@@ -1,7 +1,9 @@
-export default function LoveMessage() {
+import styles from './Message.module.css'
+
+export default function Message() {
     return (
         <>
-            <div id="love-message">
+            <div className={styles.loveMessage}>
                 <strong>Hi, my lovely Jodoko,<br /><br /></strong>
                 <p>
                     I am proud to show you this project.

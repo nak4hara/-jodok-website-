@@ -1,10 +1,10 @@
+import styles from './FooterRecipe.module.css'
 
-
-export default function FooterRecipe({ originalURL }) {
+export default function FooterRecipe({ originalURL, children }) {
     return (
-        <footer>
+        <footer className={styles.footer}>
             <a target="_blank" href={originalURL}>
-                Click here to see the original recipe
+                {children}
             </a>
         </footer>
     )

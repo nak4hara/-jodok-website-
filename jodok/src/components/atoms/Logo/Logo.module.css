@@ -1,6 +1,10 @@
-.logo img{
+.logo > .small{
     height: 8rem;
     width: 14rem;
     margin-bottom: -1.5rem;
+    object-fit: cover;
+}
+
+.logo > .large{
     object-fit: cover;
 }

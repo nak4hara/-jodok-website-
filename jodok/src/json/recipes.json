@@ -25,7 +25,9 @@
                 "quantity": "1 tsp",
                 "name": "sesame seeds, optional",
                 "type": "Condiments"
-            },
+            }
+        ],
+        "ingredientsSauce": [
             {
                 "quantity": "1 tsp",
                 "name": "fresh ginger, grated",
@@ -114,6 +116,7 @@
                 "type": "Condiments"
             }
         ],
+        "ingredientsSauce": "",
         "steps": [
             "In a large bowl, add the flour, eggs, salt, vanilla extract, melted butter, and sugar if used. ",
             "Using a whisk, beat in the milk gradually until a smooth batter forms with no lumps.",
@@ -171,6 +174,7 @@
                 "type": "Condiments"
             }
         ],
+        "ingredientsSauce": "",
         "steps": [
             "Preheat the oven to 180°C. Line an 20 cm square baking dish with parchment paper.",
             "Chop the chocolate into chunks. Melt half of the chocolate in the microwave in 20-second intervals, saving the other half for later.",
@@ -244,6 +248,7 @@
                 "type": "Condiments"
             }
         ],
+        "ingredientsSauce": "",
         "steps": [
             "Mince the cabbage into very small pieces, sprinkle salt to dehydrate. After 20 minutes rinse quickly and squeeze the water out.",
             "Mince the mushroom and scallions and combine with cabbage and the ground meat. Mince the garlic and ginger and add to the bowl.",
@@ -284,6 +289,7 @@
                 "type": "Condiments"
             }
         ],
+        "ingredientsSauce": "",
         "steps": [
             "Heat granulated sugar in a medium heavy-duty saucepan (avoid using non-stick) over medium heat, stirring constantly with a high heat resistant rubber spatula or wooden spoon. Sugar will form clumps and eventually melt into a thick brown, amber-colored liquid as you continue to stir. Be careful not to burn it.",
             "Once sugar is completely melted, immediately stir in the butter until melted and combined. Be careful in this step because the caramel will bubble rapidly when the butter is added. If you notice the butter separating or if the sugar clumps up, remove from heat and vigorously whisk to combine it again. (If you’re nervous for splatter, wear kitchen gloves. Keep whisking until it comes back together, even if it takes 3-4 minutes. It will eventually– just keep whisking. Return to heat when it’s combined again.)",
@@ -298,9 +304,76 @@
         "description": "I don't even know how many times we did this ramen, really tasty.",
         "link": "miso-ramen",
         "id": 6,
-        "ingredients": [],
+        "ingredients": [
+            {
+                "quantity": "1 portions",
+                "name": "ramen noodle",
+                "type": "Dough"
+            },
+            {
+                "quantity": "2",
+                "name": "cloves garlic",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1/2 tsp",
+                "name": "ginger, grated",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1",
+                "name": "onion, diced",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "sesame oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "white sesame seed, roasted",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "120g",
+                "name": "minced beef",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "3 Tbsp",
+                "name": "miso paste",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "sake",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "960ml",
+                "name": "chicken broth",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "",
+                "name": "pepper to taste",
+                "type": "Condiments"
+            }
+        ],
+        "ingredientsSauce": "",
         "steps": [
-            "Prepare the toppings before you start to cook. If you want to make chashu, prepare it one day before.",
+            "Choose your topping and prepare them before you start to cook. If you want to make chashu, prepare it one day before.",
             "Grate the garlic and ginger, dice the onion and mix them in a bowl.",
             "In a medium pan, heat the sesame oil in low/medium heat and stir-fry the ginger, garlic and onion until golden brown.",
             "Add the minced beef and increase the heat to medium. Cook until meat is no longer pink.",
@@ -344,6 +417,7 @@
                 "type": "Condiments"
             }
         ],
+        "ingredientsSauce": "",
         "steps": [
             "Pop the popcorn as you normally would. Sprinkle some salt on the popcorn and then set aside.",
             "In a medium pan, add the sugar at medium-heat. Once start to become caramel, stir sometimes until the caramel is homogeneous.",
@@ -362,7 +436,75 @@
         "description": "Chocolate cake made on a skillet, try it with brazilian chocolate sauce.",
         "link": "chocolate-cake",
         "id": 8,
-        "ingredients": [],
+        "ingredients": [
+            {
+                "quantity": "2",
+                "name": "eggs",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "3 Tbsp",
+                "name": "sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "50ml",
+                "name": "neutral oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/2 tsp",
+                "name": "fvanilla extract",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "50ml",
+                "name": "milk",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "60g",
+                "name": "flour",
+                "type": "Cereals"
+            },
+            {
+                "quantity": "3 Tbsp",
+                "name": "cocoa powder 50%",
+                "type": "Chocolate"
+            },
+            {
+                "quantity": "1 pinch",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "baking powder",
+                "type": "Condiments"
+            }
+        ],
+        "ingredientsSauce": [
+            {
+                "quantity": "240ml",
+                "name": "milk",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "3 Tbsp",
+                "name": "butter",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "160g",
+                "name": "sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "45g",
+                "name": "cocoa powder",
+                "type": "Chocolate"
+            }
+        ],
         "steps": [
             "In a medium bowl, add the eggs, sugar, oil, and vanilla extract. Using a whisk, beat until have an homogeneous liquid.",
             "Add the milk, flour, cacao, and salt and mix until a smooth batter forms.",
@@ -380,7 +522,80 @@
         "description": "Easy recipe but the result it's amazing, I ate for the whole week.",
         "link": "lasagna",
         "id": 9,
-        "ingredients": [],
+        "ingredients": [
+            {
+                "quantity": "6",
+                "name": "lasagna noodles",
+                "type": "Dough"
+            },
+            {
+                "quantity": "170g",
+                "name": "mozzarella cheese, shredded",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "25g",
+                "name": "parmesan cheese",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "250g",
+                "name": "ricotta cheese",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "3g",
+                "name": "fresh parsley, chopped",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1",
+                "name": "egg beaten",
+                "type": "Proteins"
+            }
+        ],
+        "ingredientsSauce": [
+            {
+                "quantity": "230g",
+                "name": "ground beef",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "1/2",
+                "name": "onion diced",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "2",
+                "name": "cloves garlic minced",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "500ml",
+                "name": "pasta sauce",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "tomato paste",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/2 tsp",
+                "name": "italian seasoning",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/4 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 pinch",
+                "name": "black pepper",
+                "type": "Condiments"
+            }
+        ],
         "steps": [
             "Preheat the oven to 180ºC. Prepare the lasagna noodles according to package instructions.",
             "In a large pan, stir-fry beef, sausage, onion, and garlic over medium-high heat until no pink remains.",
@@ -399,13 +614,80 @@
         "description": "An german savory cake, lots of caramelized onion.",
         "link": "zwiebelkuchen",
         "id": 10,
-        "ingredients": [],
+        "ingredients": [
+            {
+                "quantity": "250g",
+                "name": "flour",
+                "type": "Cereals"
+            },
+            {
+                "quantity": "50g",
+                "name": "butter, soft",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "1 package",
+                "name": "dry yeast",
+                "type": "Yeast"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "150ml",
+                "name": "warm milk",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "500g",
+                "name": "onion, medium slices",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "flour",
+                "type": "Cereal"
+            },
+            {
+                "quantity": "2",
+                "name": "eggs",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "100ml",
+                "name": "süsse sahne (heavy cream)",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "1 pinch",
+                "name": "salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "",
+                "name": "kümmel, (caraway)",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "75g",
+                "name": "bacon, diced",
+                "type": "Proteins"
+            }
+        ],
+        "ingredientsSauce": "",
         "steps": [
             "Prepare a pre-dough. To do this, crumble the yeast in a small bowl and dissolve it in some of the warmed milk. Then add the sugar and some flour and stir until smooth. The pre-dough should have a viscous consistency. Sprinkle with a little flour and leave covered in a warm place to rise.",
             "When the pre-dough has doubled in volume, it has risen sufficiently. Then add it to the flour. Add the salt and milk straight away. Knead the dough and then add the very soft butter. Leave the kneaded dough to rise.",
             "When it has risen, cover the casserole with the dough. How high you make the edge depends on the diameter of the casserole.",
             "Sauté the finely diced onions in the butter until translucent, stirring constantly. This can take a 10 minutes. However, the onions must not turn brown. Then stir in the flour immediately and leave the mixture to cool. Only when the dough has risen in the casserole, add the 2 beaten eggs and the cream and stir in well. Season with enough salt, because the onions need a lot of salt.",
-            "Then pour the topping into the casserole lined with the pastry and sprinkle with the bacon and caraway seeds. Finally, add a few flakes of butter.",
+            "Then pour the topping into the casserole lined with the pastry and sprinkle with the bacon and caraway seeds.",
             "Bake on the middle shelf in a preheated oven at 200 °C (top/bottom heat) for approx. 35 to 45 minutes.",
             "Serve warm!"
         ],
@@ -413,7 +695,7 @@
     },
     {
         "title": "Burrito",
-        "img": "https://github.com/nak4hara.png",
+        "img": "https://i.ibb.co/JszwZXr/creative-headline-F10n-THk-Ci-W8-unsplash.jpg",
         "description": "I know, it is a german recipe for a mexican dish. But we could find all the ingredients and make it easily.",
         "link": "burrito",
         "id": 11,
@@ -484,6 +766,7 @@
                 "type": "Condiments"
             }
         ],
+        "ingredientsSauce": "",
         "steps": [
             "Peel and finely chop the onion. Heat the oil in a pan and sauté the onion. Add the minced meat and fry. Stir in the tomato paste and season with salt and pepper. Drain the beans and maize, add to the minced meat and heat through.",
             "Clean the lettuce, wash and cut into strips. Wash, core and finely dice the tomatoes.",
@@ -493,5 +776,165 @@
             "Serve with sour cream."
         ],
         "originalURL": "https://www.rewe.de/rezepte/klassischer-burrito/"
+    },
+    {
+        "title": "Yaki Udon",
+        "img": "https://www.chilitochoc.com/wp-content/uploads/2020/06/yakiudon3.jpg",
+        "description": "One of the first recipes we ever done together and we repeated a loot, yaki udon with shrimps!",
+        "link": "yaki-udon",
+        "id": 12,
+        "ingredients": [
+            {
+                "quantity": "1 pack",
+                "name": "udon noodles preferably vacuum-packed",
+                "type": "Dough"
+            },
+            {
+                "quantity": "2 Tbsp",
+                "name": "neutral oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "8-10 (approx 100g)",
+                "name": "shrimp",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "1",
+                "name": "garlic minced",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1",
+                "name": "yellow onion sliced",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "8 (approx 120g)",
+                "name": "white mushrooms sliced",
+                "type": "Mushrooms"
+            },
+            {
+                "quantity": "1",
+                "name": "carrot cut matchstick-style",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1",
+                "name": "spring onion green & white separately chopped",
+                "type": "Vegetables"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "soy sauce",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 pinch",
+                "name": "salt and peppergouda",
+                "type": "Condiments"
+            }
+        ],
+        "ingredientsSauce": [
+            {
+                "quantity": "1 Tbsp",
+                "name": "oyster sauce",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "dark soy sauce",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "rice vinegar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "brown sugar",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1/3 tsp",
+                "name": "freshly crushed black pepper",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 Tbsp",
+                "name": "sesame oil",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "1 pinch",
+                "name": "salt",
+                "type": "Condiments"
+            }
+        ],
+        "steps": [
+            "Boil the udon noodles according to the package instructions. Drain and rinse with cold water. Drizzle some oil and set aside.",
+            "Heat 1 Tbsp oil in a pan, toast the minced garlic for 1 minute then add the mushrooms. On high heat stir around until cooked. Then add the onions, white part of spring onions and carrots. Stir for 2-3 minutes. Sprinkle a pinch of salt and pepper and take the veggies out.",
+            "In the same pan add additional 2 Tbsp oil and fry the shrimp. Add soy sauce and pinch of salt. Cook till the shrimp are no longer pink.",
+            "Then add the udon noodles. Fry on high heat, stirring continuously so the noodles slightly crisp up evenly.",
+            "Pour the sauce. Stir.",
+            "Then toss in the veggies.",
+            "Turn off heat and sprinkle spring onion.",
+            "Take out in a plate and enjoy!"
+        ],
+        "originalURL": "https://www.chilitochoc.com/yaki-udon-with-shrimps/"
+    },
+    {
+        "title": "Soufflé Pancakes",
+        "img": "https://i2.wp.com/bakerbettie.com/wp-content/uploads/2014/04/no-baking-powder-pancakes.jpg",
+        "description": "An alternative to german pancakes, with no baking powder. Good with berries and honey",
+        "link": "souffle-pancake",
+        "id": 13,
+        "ingredients": [
+            {
+                "quantity": "119g",
+                "name": "all-purpose flour",
+                "type": "Cereals"
+            },
+            {
+                "quantity": "1/4 tsp",
+                "name": "kosher salt",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "160ml",
+                "name": "whole milk",
+                "type": "Dairy"
+            },
+            {
+                "quantity": "1 tsp",
+                "name": "vanilla extract, optional",
+                "type": "Condiments"
+            },
+            {
+                "quantity": "3 large",
+                "name": "egg yolks, room temperature",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "3 large",
+                "name": "egg whites, room temperature",
+                "type": "Proteins"
+            },
+            {
+                "quantity": "45g",
+                "name": "sugar",
+                "type": "Condiments"
+            }
+        ],
+        "ingredientsSauce": "",
+        "steps": [
+            "Separate your egg whites from the egg yolks. Set the whites aside.",
+            "In a large bowl, stir together the flour, salt, milk, vanilla, and egg yolks just until smooth.",
+            "In a separate bowl, whip the egg whites with a hand mixer or a stand mixer. Once the egg whites are beginning to thicken, slowly stream the sugar into the egg whites with the mixer still running. Beat the egg whites until they are just starting to hold stiff peaks. They will still look glossy at this point. Note: The egg whites MUST be holding stiff peaks. If they are not, you need to whip them longer. This is ESSENTIAL for this recipe. But don't go too far with it. The whites will start looking dry and a little crumbly then you have gone too far with your beating.",
+            "Add about one quarter of the egg white mixture into the pancake batter and stir it in completely using a rubber spatula. This will lighten the batter and make it easier to fold in the rest of the whites. Add half of the remaining egg whites into the batter and gently fold the whites in, using the rubber spatula, being careful not to deflate the air out of them. Add the remaining egg whites and fold in again gently until there are no visible white streaks.",
+            "Heat a griddle or skillet over medium heat. Pour about 1/4-1/3 cup batter per cake onto the greased skillet and gently spread the batter out to a circle with the back of a spoon or measuring cup. Bubbles will still form on top even though there is no baking powder. Flip the cakes once, when the bubbles pop and the bottom is lightly browned. Cook until lightly browned on the other side."
+        ],
+        "originalURL": "https://bakerbettie.com/pancake-recipe-without-baking-powder/"
     }
 ]

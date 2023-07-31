@@ -1,0 +1,7 @@
+.containerFooter{
+    display: grid;
+    column-gap: 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-evenly;
+}
+
