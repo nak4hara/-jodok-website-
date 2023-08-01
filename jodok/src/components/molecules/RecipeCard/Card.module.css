@@ -1,0 +1,15 @@
+.cardImage{
+    height: 12rem;
+}
+.recipe-image{
+
+    object-fit: contain;
+}
+.cardImage:hover{
+    transform: scale(1.03);
+}
+
+.cardTitle{
+    padding: 1rem;
+    color: var(--clr-eerie-black);
+}

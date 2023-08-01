@@ -1,0 +1,26 @@
+.recipe-image{
+    width: 100%;
+    object-fit: contain;
+}
+
+.size-recipe-page{
+    max-height: 30rem;
+    border-radius: 0.2rem;
+    padding: 2rem 0;
+}
+
+.size-card{
+    height: 12rem;
+}
+
+.size-card:hover{
+    transform: scale(1.03);
+}
+
+@media only screen and (min-width: 1000px) {
+    /* For desktop: */
+    .size-recipe-page{
+        max-height: 50rem;
+        padding: 3rem 0;
+    }
+}

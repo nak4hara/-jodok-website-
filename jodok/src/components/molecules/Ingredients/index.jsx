@@ -1,7 +1,6 @@
 import styles from './Ingredients.module.css'
 
 export default function Ingredients({ listIngredients, classNameTitle, subtitle}) {
-    console.log(listIngredients)
     return (
         <section className={styles.ingredients}>
             <h3 className={classNameTitle}>

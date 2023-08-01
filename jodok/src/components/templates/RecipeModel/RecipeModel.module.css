@@ -1,25 +1,7 @@
 .recipe{
-    font-size: 1.7rem;
     padding: 0 1rem;
-    color:var(--clr-eerie-black);
     font-weight: 300;
     line-height: 2.5rem;
-}
-
-.recipeTitle{
-    color: var(--clr-chestnut);
-    font-size: 3rem;
-    padding-top: 1rem;
-    text-align: center;
-}
-
-.recipeImage{
-    width: 100%;
-    max-height: 30rem;
-    object-fit: cover;
-    display: flex;
-    border-radius: 0.2rem;
-    padding: 2rem 0;
 }
 
 .recipeSubtitle{
@@ -27,18 +9,12 @@
     padding-bottom: 0.75rem;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 1000px) {
     /* For desktop: */
-    .recipeTitle{
-        font-size: 4rem;
-        text-align: left;
+    .recipe{
+        padding: 2rem 25rem;
     }
     .recipeSubtitle{
-        font-size: 2rem;
-    }
-    .recipeImage{
-        max-width: 40rem;
-        margin: 2rem auto;
-        margin-bottom: 3rem;
+        font-size: 2.5rem;
     }
 }
