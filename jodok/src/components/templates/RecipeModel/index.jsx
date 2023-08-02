@@ -2,14 +2,10 @@ import styles from './RecipeModel.module.css'
 import FooterRecipe from "../../molecules/FooterRecipe";
 import Ingredients from "../../molecules/Ingredients";
 import Steps from "../../molecules/Steps";
-import RecipeImage from '../../atoms/RecipeImage';
-import RecipeTitle from '../../atoms/RecipeTitle';
 
 export default function RecipeModel({ title, srcImage, originalURL, steps, ingredients, ingredientsSauce }) {
     return (
         <div className={styles.recipe}>
-            <RecipeTitle title={title} />
-            <RecipeImage srcImage={srcImage} altImage={title} />
             <Ingredients
                 classNameTitle={styles.recipeSubtitle}
                 listIngredients={ingredients}
