@@ -1,14 +1,17 @@
-import styles from './Steps.module.css'
+import Subtitle from "../../atoms/Subtitle"
 
-export default function Steps({ steps , classNameTitle }) {
+
+export default function Steps({ steps, subtitle }) {
     return (
-        <section className={styles.instructions}>
-            <h3 className={classNameTitle}>
-                Instructions:
-            </h3>
-            <ol>
+        <section className="pb-4 flex flex-col items-center w-full gap-3 sm:w-3/5">
+            <Subtitle>
+                {subtitle}
+            </Subtitle>
+            <ol className="list-decimal list-inside">
                 {steps.map((step, index) => { return(
-                    <li key={index}>{step}</li>
+                    <li key={index} className=" text-eerie-black font-light">
+                        {step}
+                    </li>
                 )
                 })}
             </ol>

@@ -1,6 +1,7 @@
+import NotFound from '../NotFound'
 
 export default function AboutMe() {
     return (
-        <div>About me...</div>
+        <NotFound />
     )
 }

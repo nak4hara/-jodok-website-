@@ -1,28 +1,27 @@
 import Recipes from '../../../json/recipes.json'
 import Cards from '../../molecules/Cards';
-import Row from 'react-bootstrap/Row'
-import Col from 'react-bootstrap/Col'
-import Container from 'react-bootstrap/Container'
 
 export default function Home() {
   const cardRecipes = Recipes.sort(() => { return Math.random() - 0.5 });
 
   return (
+    <div className='p-4 pt-6 flex justify-center'>
+      <ul className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
+        {
+          cardRecipes.map((recipe) => (
+            <li key={recipe.id} className='w-72 shadow-lg'>
+              <Cards
+                link={recipe.link}
+                srcImage={recipe.img}
+                title={recipe.title}
+                description={recipe.description}
+              />
+            </li>
+          ))
+        }
 
-    <Container>
-      <Row xs={1} md={2} lg={3} xl={4} className='g-4'>
-        {cardRecipes.map((recipe) => (
-          <Col key={recipe.id} bsPrefix='d-flex justify-content-around'>
-            <Cards
-              link={recipe.link}
-              srcImage={recipe.img}
-              title={recipe.title}
-              description={recipe.description}
-            />
-          </Col>
-        ))}
-      </Row>
-    </Container>
+      </ul>
 
+    </div>
   )
 }

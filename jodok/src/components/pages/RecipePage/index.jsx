@@ -1,4 +1,3 @@
-import styles from'./RecipePage.module.css'
 import { useParams } from "react-router-dom"
 import recipes from '../../../json/recipes.json'
 import RecipeModel from "../../templates/RecipeModel";
@@ -16,7 +15,7 @@ export default function RecipePage() {
     }
 
     return (
-        <div className={styles.container}>
+        <div className='p-8'>
             <RecipeModel 
                 title={recipe.title}
                 srcImage={recipe.img}

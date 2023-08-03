@@ -1,24 +1,29 @@
-import Button from 'react-bootstrap/Button';
-import Card from 'react-bootstrap/Card';
+
 import { Link } from 'react-router-dom'
+import Title from '../../atoms/Title'
 
 export default function Cards({ link, srcImage, title, description }) {
     return (
-        <Card style={{ width: '27rem' }}>
-            <Link
-                to={`/recipe/${link}`}
-                style={{ color: 'inherit', textDecoration: 'none' }}
-            >
-                <Card.Img variant="top"
-                    src={srcImage} />
-                <Card.Body bsPrefix='card-body m-3' >
-                    <Card.Title style={{fontSize: '1.7rem'}}>{title}</Card.Title>
-                    <Card.Text style={{fontSize: '1.3rem'}}>
-                        {description}
-                    </Card.Text>
-                    <Button variant='dark' style={{fontSize: '1.2rem', padding: '0.7rem'}}>View Recipe</Button>
-                </Card.Body>
-            </Link>
-        </Card>
+        <Link to={`recipe/${link}`} >
+
+            <header className='max-w-xs'>
+                <img className='object-cover w-full h-48'
+                    src={srcImage}
+                    alt={title}
+                />
+            </header>
+            <body className='p-3 pb-4 flex flex-col gap-2'>
+                <Title styles='font-semibold text-chestnut'>
+                    {title}
+                </Title>
+                <div className='pb-2 text-justify grow'>
+                    {description}
+                </div>
+                <button className='bg-chestnut text-white p-2 w-1/2 rounded-sm place-self-center'>
+                    View recipe
+                </button>
+            </body>
+
+        </Link>
     )
 }

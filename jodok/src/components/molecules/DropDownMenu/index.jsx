@@ -7,7 +7,7 @@ import Close from '@mui/icons-material/Close'
 export default function DropDownMenu({ menuPages }) {
     const [isOpen, setIsOpen] = useState(false)
 
-    let menuRef = useRef();
+    let menuRef = useRef(null);
 
     useEffect(() => {
         let handler = (e) => {
@@ -36,11 +36,11 @@ export default function DropDownMenu({ menuPages }) {
                 }
             </button>
             {isOpen && (
-                <div ref={menuRef} className=" absolute top-20 right-0 w-full sm:w-60">
+                <div ref={menuRef} className=" absolute top-20 right-0 w-full sm:w-60 transition ease-linear duration-300 translate-y-0">
                     <ul>
                         {menuPages.map(page => (
                             <Link to={page.path} onClick={() => {setIsOpen(false)}}>
-                                <li key={page.id} className="p-4 bg-blue-950 hover:bg-white text-white hover:text-blue-700">
+                                <li key={page.id} className="p-4 bg-eerie-black hover:bg-white text-white hover:text-blue-700">
                                     {page.title}
                                 </li>
                             </Link>
