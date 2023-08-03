@@ -1,17 +1,15 @@
-import styles from './Navbar.module.css'
-import Logo from '../../atoms/Logo';
-import MenuBar from '../../atoms/MenuBar';
 import { Link } from 'react-router-dom';
+import Logo from '../../atoms/Logo';
+import DropDownMenu from '../../molecules/DropDownMenu';
 
-export default function Navbar() {
+export default function Navbar({ menuPages }) {
 
     return (
-        <nav className={styles.nav}>
-            <Link to={'/'}>
+        <nav className='p-4 flex flex-row h-20 shadow-lg justify-between'>
+            <Link to="/">
                 <Logo />
             </Link>
-
-            <MenuBar />
+            <DropDownMenu menuPages={menuPages}/>
         </nav>
     )
 }

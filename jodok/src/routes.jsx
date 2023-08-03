@@ -1,4 +1,3 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Routes, Route, useLocation } from 'react-router-dom'
 import { useEffect } from 'react';
 
@@ -20,17 +19,24 @@ export default function AppRoutes() {
     window.scrollTo(0, 0);
   }, [pathname])
 
+  {/** If you add a new page in menu, please add path here **/ }
+  const menuPages = [
+    { path: "love-message",title:'Message', id: 1 },
+    { path: "about-me", title:'About Karina', id: 2 }
+  ];
+
   return (
     <>
-      <Navbar />
+      <Navbar menuPages={menuPages}/>
 
       <Routes>
         <Route path='/' element={<PatternPage />}>
           <Route index element={<Home />} />
-          <Route path="love-message" element={<Message />} />
-          <Route path="about-me" element={<AboutMe />} />
           <Route path="*" element={<NotFound />} />
           <Route path='test' element={<TestPage />} />
+          {/** menu pages above here **/}
+          <Route path="love-message" element={<Message />} />
+          <Route path="about-me" element={<AboutMe />} />
         </Route>
 
         <Route path='/recipe/:link' element={<RecipePage />} />
