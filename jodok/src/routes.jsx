@@ -26,7 +26,7 @@ export default function AppRoutes() {
   ];
 
   return (
-    <>
+    <div className='page-container relative min-h-screen'>
       <Navbar menuPages={menuPages}/>
 
       <Routes>
@@ -34,15 +34,14 @@ export default function AppRoutes() {
           <Route index element={<Home />} />
           <Route path="*" element={<NotFound />} />
           <Route path='test' element={<TestPage />} />
-          {/** menu pages above here **/}
+          {/** menu pages below here **/}
           <Route path="love-message" element={<Message />} />
           <Route path="about-me" element={<AboutMe />} />
+          <Route path='/recipe/:link' element={<RecipePage />} />
         </Route>
-
-        <Route path='/recipe/:link' element={<RecipePage />} />
       </Routes>
 
       <Footer />
-    </>
+    </div>
   )
 }

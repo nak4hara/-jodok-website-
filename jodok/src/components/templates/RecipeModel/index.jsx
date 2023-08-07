@@ -5,7 +5,7 @@ import Title from '../../atoms/Title'
 
 export default function RecipeModel({ title, srcImage, originalURL, steps, ingredients, ingredientsSauce }) {
     return (
-        <div className="flex flex-col items-center pb-16">
+        <div className="flex flex-col items-center">
             <Title styles='text-chestnut font-extrabold text-2xl sm:text-3xl pb-3'>
                 {title}
             </Title>

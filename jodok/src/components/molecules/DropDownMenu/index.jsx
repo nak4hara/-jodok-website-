@@ -36,7 +36,7 @@ export default function DropDownMenu({ menuPages }) {
                 }
             </button>
             {isOpen && (
-                <div ref={menuRef} className=" absolute top-20 right-0 w-full sm:w-60 transition ease-linear duration-300 translate-y-0">
+                <div ref={menuRef} className="absolute z-50 top-20 right-0 w-full sm:w-60 transition ease-linear duration-300 translate-y-0">
                     <ul>
                         {menuPages.map(page => (
                             <Link to={page.path} onClick={() => {setIsOpen(false)}}>

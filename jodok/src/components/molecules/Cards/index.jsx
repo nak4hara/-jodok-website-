@@ -19,7 +19,7 @@ export default function Cards({ link, srcImage, title, description }) {
                 <div className='pb-2 text-justify grow'>
                     {description}
                 </div>
-                <button className='bg-chestnut text-white p-2 w-1/2 rounded-sm place-self-center'>
+                <button className='hover:bg-eerie-black bg-chestnut text-white text-xs p-2 w-24 rounded-sm'>
                     View recipe
                 </button>
             </body>

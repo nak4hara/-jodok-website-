@@ -10,6 +10,7 @@ export default {
         'chestnut': '#A33B29',
         'eerie-black': '#171D1C',
         'denim': '#045CB4',
+        'old-gold': '#d2a847',
       },
     },
   },
