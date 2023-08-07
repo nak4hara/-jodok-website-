@@ -27,6 +27,7 @@ export default function DropDownMenu({ menuPages }) {
         <>
             <button
                 className='relative'
+                name="menu"
                 onClick={(open) => setIsOpen(open => !open)}>
                 {!isOpen ? (
                     <MenuSharp sx={{ fontSize: '28px' }} />
