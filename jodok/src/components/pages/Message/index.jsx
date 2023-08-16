@@ -3,7 +3,8 @@
 export default function Message() {
 
     return (
-        <main className="p-6 flex justify-center">
+        <main className="p-6 flex justify-center gap-4 flex-wrap">
+            <iframe width="315" height="200" src="https://www.youtube.com/embed/iGskhOXVg2U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div className="text-sm p-4 max-w-xs sm:max-w-xl">
                 <h1 className="pb-2">Hi, my lovely Jodoko,</h1>
                 <p className="font-light">
