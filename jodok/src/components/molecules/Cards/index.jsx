@@ -1,6 +1,7 @@
 
 import { Link } from 'react-router-dom'
 import Title from '../../atoms/Title'
+import Button from '../../atoms/Button'
 
 export default function Cards({ link, srcImage, title, description }) {
     return (
@@ -12,17 +13,17 @@ export default function Cards({ link, srcImage, title, description }) {
                     alt={title}
                 />
             </header>
-            <body className='p-3 pb-4 flex flex-col gap-2'>
+            <section className='p-3 pb-4 flex flex-col gap-2'>
                 <Title styles='font-semibold text-chestnut'>
                     {title}
                 </Title>
                 <div className='pb-2 text-justify grow'>
                     {description}
                 </div>
-                <button className='hover:bg-eerie-black bg-chestnut text-white text-xs p-2 w-24 rounded-sm'>
+                <Button styles='hover:bg-eerie-black bg-chestnut text-white text-xs w-24'>
                     View recipe
-                </button>
-            </body>
+                </Button>
+            </section>
 
         </Link>
     )
