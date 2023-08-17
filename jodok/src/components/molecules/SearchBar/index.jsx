@@ -1,4 +1,5 @@
 import SearchIcon from '@mui/icons-material/Search';
+import SearchOffIcon from '@mui/icons-material/SearchOff';
 import Input from '../../atoms/Input';
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
@@ -13,6 +14,10 @@ export default function SearchBar(data) {
         })
     }, [data, query])
 
+    function clearBtn(){
+        setQuery("")
+    }
+
 
     return (
         <div className='relative h-full w-5/6 sm:w-1/2 pt-8'>
@@ -23,8 +28,8 @@ export default function SearchBar(data) {
                     value={query}
                     onChange={e => setQuery(e.target.value)}
                 />
-                <Button name='search-bar' ariaLabel='search recipe icon'>
-                    <SearchIcon />
+                <Button name='search-bar' ariaLabel='search recipe icon' onClick={clearBtn}>
+                    {query.length === 0 ? <SearchIcon /> : <SearchOffIcon/>}
                 </Button>
             </div>
             {query && (
