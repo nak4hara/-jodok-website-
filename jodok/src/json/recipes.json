@@ -101,6 +101,11 @@
                 "type": "Dairy"
             },
             {
+                "quantity": "320ml",
+                "name": "milk",
+                "type": "Dairy"
+            },
+            {
                 "quantity": "2/3 Tbsp",
                 "name": "vanilla extract",
                 "type": "Condiments"
